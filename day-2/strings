@@ -1,0 +1,15 @@
+# strings
+
+
+a = " Hello world"
+print(a)
+print(type(a))
+
+b = """ Here is grocesary list
+1. fruits
+2. veggies
+3. drinks """
+
+print(b)
+print(b[1])
+print(len(b))

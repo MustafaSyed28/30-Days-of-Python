@@ -1,5 +1,5 @@
 # what I did
-"""
+
 -> set up my github account
 -> set up visual studio and instrall python 
 -> learn some commands of gitbash
@@ -7,7 +7,3 @@
 -> how to know version of code within our code
 -> how to print string
 
-
-
-
-"""
