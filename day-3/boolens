@@ -1,0 +1,10 @@
+# boolens
+
+a , b = 100 , 1000
+print(a > b)
+
+if(a < b):
+ print("b is greater that a")
+else :
+ print ("a is greater that b")
+
