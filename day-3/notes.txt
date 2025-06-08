@@ -1,0 +1,21 @@
+# what I did
+
+-> what are boolens ( <, >, ==, !=)
+-> so bool valuse which give false
+-> what to write code for addition, subtraction, multiplication, division (+, -, *, /)
+-> what is floor division (//), how does it work
+-> what is modulus (%)
+-> what are exponents (**)
+-> what are assignment operators
+(=) its work is to assign variable a valuse
+(==) conditional check/equality check
+(+=) Ex. x+=3 # adds and stores x+3 val in x ie 8 (add, subtract, multiply, divide)
+-> waht are operators
+Python divides the operators in the following groups:
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators

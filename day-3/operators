@@ -16,5 +16,11 @@ print(e)
 d *= 10
 print(d)
 
+m , n = 10, 4
 
+print(m/n)
+print(m*n)
+print(m % n)
+print(m//n)
+print(m**n)
 
