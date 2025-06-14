@@ -1,54 +1,68 @@
 # tuples
 
-# -> assigning
-tuple1 = ("max", "jane", "alex", 100, 80, 95)
-print(tuple1)
-print(len(tuple1))
-print(type(tuple1))
-print(tuple1[::-1])
+tuple1= ("mercury", "venus", "earth", "mars", "jupiter")
+tuple2= tuple(("saturn", "urianus", "neptune"))
 
-tuple2 = tuple(("adam", "john", "sam", 70, 85, 96))
+print(tuple1)
 print(tuple2)
-print(tuple2[:3])
+
+planet1= tuple1[0]
+print(planet1)
+
+planet5= tuple1[-1]
+print(planet5)
+
+planets= tuple1[0:]
+planets
+
+skipping= tuple1[::2] + tuple2[1::2]
+print(skipping)
+
+allPlanets= tuple1 + tuple2
+print(allPlanets)
+
+times2= tuple1 * 2
+print(times2)
 
 
-# -> updating
-list1 = list(tuple1)
-print(list1)
 
-list1 = list(tuple1)
-list1[3] = 99
-tuple1 = tuple(list1)
+# you cannot perform .functions on tuple, but to do that there is 1 way
+
+tuple3= list(tuple2)
+tuple3.append("pluto")                 # can add new items
+tuple2= tuple(tuple3)
+print(tuple2)
+
+tuple4= list(tuple1)
+tuple4.insert(5, "moon")               # can insert new items
+tuple1= tuple(tuple4)
 print(tuple1)
 
+tuple5= list(tuple1)
+tuple5.remove("moon")                  # can remove items
+tuple1= tuple(tuple5)
+print(tuple1)
 
-# -> packing & unpacking
+tuple6= list(tuple2)
+tuple6.pop()                           # can delete items
+tuple2= tuple(tuple6)
+print(tuple2)
 
-marks = tuple((100, 95, 99, 86, 80, 79))
-(*topper, acer, acer, average ) = marks
+tuple7= list(tuple1)
+tuple7.reverse()                       # can reverse the order
+tuple1= tuple(tuple7)
+print(tuple1)
 
-print(topper)
-print(acer)
-print(average)
+tuple8= list(tuple1)
+tuple8.sort()                          # can sort the order`
+tuple1=tuple(tuple8)
+print(tuple1)
 
+# now i am reassigning the tuples
 
-# -> joining tuples
+tuple1= ("mercury", "venus", "earth", "mars", "jupiter")
+tuple2= tuple(["saturn", "urianus", "neptune"])
 
-fruits = ("apple", "mango", "avocado", "melon", "grapes")
-vegetables = ("spinach", "lettuce", "cucumber", "onion")
-mix = fruits + vegetables
-print(mix)
-print(type(mix))
-
-twins = fruits * 2
-print(twins)
-
-
-# -> .functions
-
-count = twins.count("mango")
-print(count)
-
-place = fruits.index("avocado")
-print(place)
+del tuple1
+del tuple2
 
