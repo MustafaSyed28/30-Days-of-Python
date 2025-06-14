@@ -1,7 +1,7 @@
 # lists
 
 list1= ["father", "mother", "child1", "child2", "child3", "child4"]                    # 2-ways to assing list
-list2= list(["abbu-ji", "mamma", "shoaib", "shaloo", "hannu", "subia"])
+list2= list(["joseph", "rose", "andrey", "abigel", "zain", "amir"])
 
 list3= ["hi", 2, 8.88, '5', False, [1,2]]            # list can have any variable and duplicates
 
