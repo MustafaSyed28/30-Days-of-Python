@@ -61,3 +61,49 @@ dic1.clear()                # clear the dictionary
 print(dic1)
 
 del dic2                    # delete the dictionary
+
+dic1= {
+    "name": "iris",
+    "year": 2000,
+    "month": "october",
+}
+
+dic2= dict({"name": "jacob", "year": 2002, "month": "april"})
+
+
+for x in dic1:
+  print(x)
+
+for y in dic2:
+  print(dic2[y])
+
+for z in dic2.values():
+  print(z)
+
+for m in dic1.items():  
+  print(m)
+
+school= {
+    "principle":{
+        "name": "trump",
+        "age": 50,
+        "salary": 100000,
+    },
+
+    "Viceprinciple":{
+        "name": "obama",
+        "age": 40,
+        "salary": 80000,
+    },
+
+    "professor":{
+        "name": "putin",
+        "age": 30,
+        "salary": 60000,
+    },
+}
+
+print(school)
+print(school["principle"])
+print(school["professor"]["age"])
+print(school["Viceprinciple"]["name"][-1])
