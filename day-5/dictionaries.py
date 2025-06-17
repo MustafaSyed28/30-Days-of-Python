@@ -107,3 +107,29 @@ print(school)
 print(school["principle"])
 print(school["professor"]["age"])
 print(school["Viceprinciple"]["name"][-1])
+
+school={
+   "principle": {"level": [90,100], 
+                 "class":{12: ["a","b"], 
+                           11: ["a","b"]
+                          }
+                          } ,
+   "vicePrinciple": {"level": [70,90], 
+                     "class":{10: ["a","b"], 
+                              9: ["a","b"]
+                              }
+                              },
+   "teacher": {"level": [60,70], 
+               "class":{8: ["a","b"], 
+                        7: ["a","b"], 
+                        "extra":{5: "all", 
+                                 6: "a and b"
+                                 }
+                                 }
+                                 },
+}
+
+
+print(school["principle"]["level"][1])
+print(school["teacher"]["class"])
+print(school["teacher"]["class"]["extra"])

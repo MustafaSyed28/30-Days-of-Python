@@ -39,13 +39,13 @@ list2= list(["joseph", "rose", "andrey", "abigel", "zain", "amir"])
 g= list1.append("no5")            # appends anything you assign to the end
 print(list1)
 
-h= list2.insert(5, "bill")       # insert "bill" at index5
+h= list2.insert(5, "bill")        # insert "bill" at index5
 print(list2)
 
 i= list1.pop()                    # remove last index in the list
 print(list1)
 
-j= list2.remove("amir")          # removes the variable which you provided [note: you have to write the variable you want to remove]
+j= list2.remove("amir")           # removes the variable which you provided [note: you have to write the variable you want to remove]
 print(list2)
 
 m= list1.count("rose")
@@ -69,7 +69,7 @@ print(list3)
 join= list1 + list2               # join two list
 print(join)
 
-clear1= list1.clear()              # clear the list
+clear1= list1.clear()             # clear the list
 print(list1)
 
 clear2= list2.clear()
