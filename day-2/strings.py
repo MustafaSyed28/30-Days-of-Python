@@ -39,7 +39,3 @@ f = " Thats the truth"
 z = g + f
 print(z)
 
-
-
-
-
