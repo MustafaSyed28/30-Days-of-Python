@@ -76,5 +76,3 @@ clear2= list2.clear()
 print(list2)
 
 
-
-
