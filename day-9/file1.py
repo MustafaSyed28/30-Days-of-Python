@@ -7,4 +7,3 @@ def name(name):
 
 def age(n: int):
     print(f"You are {n} years old")
-
