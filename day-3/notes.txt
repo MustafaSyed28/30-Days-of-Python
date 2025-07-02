@@ -10,6 +10,7 @@
 (=) its work is to assign variable a valuse
 (==) conditional check/equality check
 (+=) Ex. x+=3 # adds and stores x+3 val in x ie 8 (add, subtract, multiply, divide)
+
 -> waht are operators
 Python divides the operators in the following groups:
 Arithmetic operators

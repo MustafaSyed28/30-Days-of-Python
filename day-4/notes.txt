@@ -1,0 +1,41 @@
+→ what are lists
+ ->used to store multiple values in one variable
+ ->values are inside square brackets: [ ]
+ ->list items are ordered and changeable
+ ->items are separated by commas
+ ->example: ["apple", "banana", "mango"]
+
+→ how to access items in a list
+ ->using index numbers (starts from 0)
+ ->ex: mylist[0] gives the first item
+ ->negative index: mylist[-1] gives the last item
+
+→ how to change item in list
+ ->list[index] = new_value
+ ->changes the value at a specific position
+
+→ list allows duplicate values
+ ->same value can appear multiple times
+ ->ex: ["a", "b", "a"] is valid
+
+→ list is mutable
+ ->we can add, change, or remove items anytime
+
+→ some common list methods
+ ->.append() → adds value at the end
+ ->.insert(index, value) → adds at specific position
+ ->.remove(value) → removes first matching value
+ ->.pop() → removes last item (or item at index)
+ ->.clear() → removes all items from list
+ ->.sort() → sorts items in order (default: ascending)
+ ->.reverse() → reverses the list
+ ->len(list) → counts number of items
+
+→ what is nested lists
+ ->a list inside another list
+ ->ex: [1, 2, [3, 4]] → 3 is inside a sublist
+
+→ how to loop through a list
+ ->use for loop to go through each item
+ ->example:
+ ->for item in mylist: print(item)
