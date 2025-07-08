@@ -31,4 +31,3 @@ while True:
 
 print(f"\nYOUR TOTAL = ${bill_total:.2f}")
 
-
